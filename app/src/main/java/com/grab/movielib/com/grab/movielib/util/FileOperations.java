@@ -39,9 +39,6 @@ public class FileOperations {
 
     public static Object readFromFile(Context context, String fileName) {
         Object obj = null;
-//        if(! new File(fileName).exists())
-//            return obj;
-
         try {
             FileInputStream fileInputStream = context.openFileInput(fileName);
             ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
