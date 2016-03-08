@@ -1,0 +1,1 @@
+include ':app', ':listviewanimations_lib-core_3.1.0', ':nineoldandroids-2.4.0', ':YouTubeAndroidPlayerApi'
